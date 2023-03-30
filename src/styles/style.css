@@ -1,0 +1,87 @@
+@media (min-width: 992px) {
+.navbar-brand {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    }
+.container h1 {
+    max-width: 50%;
+    }
+}
+
+body {
+  background-color: #010B40;
+  font-family: 'Outfit', sans-serif;
+}
+
+.navbar-light {
+border-bottom: 1px solid rgba(251, 93, 107, 0.5);
+
+}
+
+.btn-outline-danger {
+    color: #ffffff;
+    border-color: #dc354500;
+}
+
+.btn-outline-danger:hover {
+    background-color: #FB5D6B;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #FB5D6B;
+    border-color: #FB5D6B;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #010B40;
+    border-color: #010B40;
+}
+
+
+* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 37rem;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 37rem;
+}
+
+.bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+* Close CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+
